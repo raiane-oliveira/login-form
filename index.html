@@ -24,14 +24,14 @@
     </head>
     <body>
         <main id="container">
-            <section class="form-information">
+            <section class="site-information">
                 <a href="/" class="logo">
                     <img src="images/logo.svg" alt="Logo Camp.in" />
                 </a>
 
                 <article class="form-container">
                     <div class="login-text">
-                        <img src="images/log-in.svg" alt="Login" />
+                        <!-- <img src="images/log-in.svg" alt="Login" /> -->
                         <h2>Faça seu login</h2>
                         <p>Entre com suas informações de cadastro.</p>
                     </div>
@@ -39,22 +39,30 @@
                     <form action="/" method="post">
                         <fieldset class="email">
                             <label for="email">E-mail</label>
-                            <input type="text" id="email" />
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Digite seu e-mail"
+                            />
                         </fieldset>
 
                         <fieldset class="password">
                             <label for="password">Senha</label>
-                            <input type="password" id="password" />
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Digite sua senha"
+                            />
                         </fieldset>
 
                         <fieldset class="checkbox">
                             <input type="checkbox" id="checkbox" />
                             <label for="checkbox">Lembre-me</label>
+                            <span class="forgot-password">
+                                <a href="#"> Esqueci minha senha </a>
+                            </span>
                         </fieldset>
 
-                        <p class="forgot-password">
-                            <a href="#"> Esqueci minha senha </a>
-                        </p>
                         <button type="submit">Entrar</button>
                         <p class="register">
                             <a href="#"
@@ -67,7 +75,7 @@
             </section>
 
             <section class="photo-information">
-                <img src="images/side-image.jpg" alt="Side Image" />
+                <!-- <img src="images/side-image-2x.jpg" alt="Side Image" /> -->
             </section>
         </main>
     </body>

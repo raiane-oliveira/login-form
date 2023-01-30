@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #191816;   
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-information {
+    padding: 2.5rem;
+    width: 50%;
+}
+
+.photo-information {
+    width: 50%;
+    height: 100vh;
+    opacity: .9;
+    background: url('images/side-image-2x.jpg') no-repeat center/cover;
+}
+
+.form-container {
+    margin-top: 10rem;
+    background-color: #24221F;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+}
+
+.login-text h2 {
+    background: url('images/log-in.svg') no-repeat left;
+    color: #D4CCB6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.login-text p {
+    color: #AFB6C2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-container fieldset {
+    border: none;
+    margin-top: 1rem;
+}
+
+.email,
+.password {
+    position: relative;
+}
+
+.email label,
+.password label {
+    display: block;
+    color: #AFB6C2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: .2rem;
+}
+
+.email input,
+.password input {
+    background-color: transparent;
+    border: 1px solid #868686;
+    width: 100%;
+    border-radius: 5px;
+    padding: .7rem 2.1rem;
+    color: #A9AFB9;
+    font-size: .9rem;
+}
+
+.email input {
+    background: url('images/mail.svg') no-repeat .4rem center;
+}
+
+.password input {
+    background: url("images/lock.svg") no-repeat .4rem center,
+    url("images/eye.svg") no-repeat 96% center;
+
+}
+
+.password .img-eye {
+    position: absolute;
+    bottom: .7rem;
+    right: .5rem;
+}
