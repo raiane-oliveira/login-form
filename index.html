@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Raiane Oliveira" />
+        <meta
+            name="description"
+            content="Desafio para desenvolver um formulário de login do curso Discover da Rocketseat."
+        />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="icon" href="images/favicon.ico" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Camp.in | Login Form</title>
+    </head>
+    <body>
+        <main id="container">
+            <section class="form-information">
+                <a href="/" class="logo">
+                    <img src="images/logo.svg" alt="Logo Camp.in" />
+                </a>
+
+                <article class="form-container">
+                    <div class="login-text">
+                        <img src="images/log-in.svg" alt="Login" />
+                        <h2>Faça seu login</h2>
+                        <p>Entre com suas informações de cadastro.</p>
+                    </div>
+
+                    <form action="/" method="post">
+                        <fieldset class="email">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" />
+                        </fieldset>
+
+                        <fieldset class="password">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" />
+                        </fieldset>
+
+                        <fieldset class="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox">Lembre-me</label>
+                        </fieldset>
+
+                        <p class="forgot-password">
+                            <a href="#"> Esqueci minha senha </a>
+                        </p>
+                        <button type="submit">Entrar</button>
+                        <p class="register">
+                            <a href="#"
+                                >Não tem uma conta?
+                                <strong>Registre-se</strong>
+                            </a>
+                        </p>
+                    </form>
+                </article>
+            </section>
+
+            <section class="photo-information">
+                <img src="images/side-image.jpg" alt="Side Image" />
+            </section>
+        </main>
+    </body>
+</html>
