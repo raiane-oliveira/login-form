@@ -25,21 +25,21 @@
     <body>
         <main id="container">
             <section class="site-information">
-                <a href="/" class="logo">
+                <a href="index.html" class="logo">
                     <img src="images/logo.svg" alt="Logo Camp.in" />
                 </a>
 
                 <article class="form-container">
                     <div class="login-text">
-                        <!-- <img src="images/log-in.svg" alt="Login" /> -->
                         <h2>Faça seu login</h2>
                         <p>Entre com suas informações de cadastro.</p>
                     </div>
 
-                    <form action="/" method="post">
+                    <form action="/">
                         <fieldset class="email">
                             <label for="email">E-mail</label>
                             <input
+                                autofocus
                                 type="email"
                                 id="email"
                                 placeholder="Digite seu e-mail"
@@ -56,14 +56,16 @@
                         </fieldset>
 
                         <fieldset class="checkbox">
-                            <input type="checkbox" id="checkbox" />
-                            <label for="checkbox">Lembre-me</label>
+                            <label>
+                                <input type="checkbox" />
+                                Lembre-me
+                            </label>
                             <span class="forgot-password">
                                 <a href="#"> Esqueci minha senha </a>
                             </span>
                         </fieldset>
 
-                        <button type="submit">Entrar</button>
+                        <button type="submit" class="btn-login">Entrar</button>
                         <p class="register">
                             <a href="#"
                                 >Não tem uma conta?
@@ -74,9 +76,7 @@
                 </article>
             </section>
 
-            <section class="photo-information">
-                <!-- <img src="images/side-image-2x.jpg" alt="Side Image" /> -->
-            </section>
+            <section class="photo-information"></section>
         </main>
     </body>
 </html>

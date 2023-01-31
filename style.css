@@ -32,10 +32,11 @@ a {
 }
 
 .form-container {
-    margin-top: 10rem;
+    margin: 10rem auto 0 auto;
     background-color: #24221F;
     border-radius: 5px;
-    padding: 2rem 5rem;
+    padding: 6rem 7rem;
+    max-width: 45rem;
 }
 
 .login-text h2 {
@@ -81,6 +82,7 @@ a {
     padding: .7rem 2.1rem;
     color: #A9AFB9;
     font-size: .9rem;
+    transition: outline 300ms, border 300ms;
 }
 
 .email input {
@@ -93,8 +95,86 @@ a {
 
 }
 
-.password .img-eye {
-    position: absolute;
-    bottom: .7rem;
-    right: .5rem;
+.email input:focus,
+.password input:focus {
+    outline: 1px solid #FFC632;
+    border-color: #FFC632;
+}
+
+.email input:focus {
+    background-image: url('images/mail-focus.svg');
+}
+
+.password input:focus {
+    background-image: url('images/lock-focus.svg');
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox label {
+    color: #A9AFB9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    cursor: pointer;
+}
+
+.checkbox input {
+    all: unset;
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #868686;
+    transition: background 200ms;
+}
+
+.checkbox input:checked {
+    background: #FFC632 url('images/check.svg') no-repeat center/cover;
+    border-color: #FFC632;
+}
+
+.forgot-password a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #FFC632;
+}
+
+.forgot-password a:hover,
+.register a:hover,
+.btn-login:hover {
+    transition: opacity 200ms;
+    opacity: .8;
+}
+
+.btn-login {
+    width: 100%;
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+
+    background-color: #FFC632;
+    border-radius: 5px;
+    color: #473404;
+
+    font: 1.2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center;
+    font: .9rem 'Poppins', sans-serif;
+}
+
+.register a {
+    color: #FFC632;
 }
