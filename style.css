@@ -10,7 +10,7 @@ html {
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    background-color: #191816;   
+    background-color: #191816;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 
 .form-container {
     justify-self: center;
-    background-color: #24221F;
+    background-color: #24221f;
     border-radius: 5px;
     margin: 8rem 0rem;
     padding: 4rem 7rem;
@@ -34,15 +34,15 @@ a {
 }
 
 .login-text h2 {
-    background: url('images/log-in.svg') no-repeat left;
-    color: #D4CCB6;
-    font: 500 1.6rem 'Poppins', sans-serif;
+    background: url("images/log-in.svg") no-repeat left;
+    color: #d4ccb6;
+    font: 500 1.6rem "Poppins", sans-serif;
     padding-left: 32px;
 }
 
 .login-text p {
-    color: #AFB6C2;
-    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     margin: 0.3rem 0 1.5rem 0;
 }
@@ -66,10 +66,10 @@ a {
 .email label,
 .password label {
     display: block;
-    color: #AFB6C2;
-    font-family: 'Poppins', sans-serif;
+    color: #afb6c2;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
-    margin-bottom: .3rem;
+    margin-bottom: 0.3rem;
 }
 
 .email input,
@@ -78,34 +78,33 @@ a {
     border: 1px solid #868686;
     width: 100%;
     border-radius: 5px;
-    padding: .7rem 2.1rem;
-    color: #A9AFB9;
-    font-size: .9rem;
+    padding: 0.7rem 2.1rem;
+    color: #a9afb9;
+    font-size: 0.9rem;
     transition: outline 300ms, border 300ms;
 }
 
 .email input {
-    background: url('images/mail.svg') no-repeat .4rem center;
+    background: url("images/mail.svg") no-repeat 0.4rem center;
 }
 
 .password input {
-    background: url("images/lock.svg") no-repeat .4rem center,
-    url("images/eye.svg") no-repeat 96% center;
-
+    background: url("images/lock.svg") no-repeat 0.4rem center,
+        url("images/eye.svg") no-repeat 96% center;
 }
 
 .email input:focus,
 .password input:focus {
-    outline: 1px solid #FFC632;
-    border-color: #FFC632;
+    outline: 1px solid #ffc632;
+    border-color: #ffc632;
 }
 
 .email input:focus {
-    background-image: url('images/mail-focus.svg');
+    background-image: url("images/mail-focus.svg");
 }
 
 .password input:focus {
-    background-image: url('images/lock-focus.svg');
+    background-image: url("images/lock-focus.svg");
 }
 
 .checkbox {
@@ -115,12 +114,12 @@ a {
 }
 
 .checkbox label {
-    color: #A9AFB9;
-    font-family: 'Roboto', sans-serif;
+    color: #a9afb9;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     display: flex;
     align-items: center;
-    gap: .3rem;
+    gap: 0.3rem;
     cursor: pointer;
 }
 
@@ -136,33 +135,33 @@ a {
 }
 
 .checkbox input:checked {
-    background: #FFC632 url('images/check.svg') no-repeat center/cover;
-    border-color: #FFC632;
+    background: #ffc632 url("images/check.svg") no-repeat center/cover;
+    border-color: #ffc632;
 }
 
 .forgot-password a {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: .9rem;
-    color: #FFC632;
+    font-size: 0.9rem;
+    color: #ffc632;
 }
 
 .forgot-password a:hover,
 .register a:hover,
 .btn-login:hover {
     transition: opacity 200ms;
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .btn-login {
     width: 100%;
-    padding: .8rem 1.5rem;
+    padding: 0.8rem 1.5rem;
 
-    background-color: #FFC632;
+    background-color: #ffc632;
     border-radius: 5px;
     color: #473404;
 
-    font: 1.2rem 'Poppins', sans-serif;
+    font: 1.2rem "Poppins", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
@@ -170,18 +169,18 @@ a {
 
 .register {
     text-align: center;
-    font: .9rem 'Poppins', sans-serif;
+    font: 0.9rem "Poppins", sans-serif;
 }
 
 .register a {
-    color: #FFC632;
+    color: #ffc632;
 }
 
 .photo-information {
     width: 50%;
     height: 100vh;
-    opacity: .9;
-    background: url('images/side-image-2x.jpg') no-repeat center/cover;
+    opacity: 0.9;
+    background: url("images/side-image-2x.jpg") no-repeat center/cover;
 }
 
 /* Media queries */
@@ -208,7 +207,7 @@ a {
     .form-container {
         background-color: transparent;
         padding: 0;
-        margin: 3rem 0;
+        margin: 2rem 0;
         width: 100%;
     }
 }
